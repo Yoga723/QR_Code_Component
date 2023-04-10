@@ -2,7 +2,7 @@ import Head from "next/head";
 import QRImage from "../../public/images/image-qr-code.png";
 import Image from "next/image";
 import { outfit_400, outfit_700 } from "../styles/fontsSettings";
-import { Footer } from "./components/footer";
+import { Footer } from "../components/index";
 
 export default function Home() {
   return (
