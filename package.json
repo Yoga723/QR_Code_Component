@@ -6,13 +6,9 @@
   },
   "private": true,
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "lint": "next lint",
-    "heroku-prebuild": "npm install -f"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
 },
   "dependencies": {
     "@types/node": "18.15.11",
