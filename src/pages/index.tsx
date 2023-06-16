@@ -9,10 +9,18 @@ export default function Home() {
     <div id="_next">
       <Head>
         <title>QR Code FrontEnd Challenge</title>
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width"
+        />
+        <meta
+          name="description"
+          content="a QR Code for Front End Developer Challenge. Created by Yoga723"
+        />
       </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#D5E1EF]">
-        <div className="z-10 w-full md:w-10/12 h-auto max-w-xs min-h-fit bg-[#FEFFFF] font-mono text-sm flex flex-col items-center shadow-xl rounded-2xl mt-7 pb-10">
+        <main className="z-10 w-full md:w-10/12 h-auto max-w-xs min-h-fit bg-[#FEFFFF] font-mono text-sm flex flex-col items-center shadow-xl rounded-2xl mt-7 pb-10">
           <Image
             src={QRImage}
             alt="picture of QR"
@@ -33,8 +41,8 @@ export default function Home() {
               skills to the next level
             </p>
           </div>
-        </div>
-      <Footer/>
+        </main>
+        <Footer />
       </div>
     </div>
   );
