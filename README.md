@@ -11,7 +11,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
 
 ### Screenshot
-[Screen Shoot1](./next-js/public/images/Screenshot%202023-04-09%20at%2014-30-01%20QR%20Code%20FrontEnd%20Challenge.png)
+[Screen Shoot1](./public/images/SC.png)
 
 
 ### Built with

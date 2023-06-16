@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div id="_next">
       <Head>
-        <title>QR Code FrontEnd Challenge</title>
+        <title>QR Code FrontEnd Challenge - YOGA PANGESTU</title>
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
@@ -28,11 +28,11 @@ export default function Home() {
           />
 
           <div className="flex flex-col px-4 items-center">
-            <p
+            <h1
               className={`text-[#333C55] text-[24px] text-center ${outfit_700.variable} font-merryWeather_700 font-bold pt-7 pb-5`}
             >
               Improve your front-end <br /> skills by building projects
-            </p>
+            </h1>
 
             <p
               className={`flex-wrap w-9/12 text-[#A9ACB3] font-normal text-[15px] text-center ${outfit_400.variable} font-merryWeather_400`}
