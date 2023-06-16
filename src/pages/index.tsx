@@ -6,13 +6,13 @@ import { Footer } from "../components/index";
 
 export default function Home() {
   return (
-    <div>
+    <div id="_next">
       <Head>
         <title>QR Code FrontEnd Challenge</title>
       </Head>
 
-      <div className="flex flex-col items-center justify-between min-h-screen bg-[#D5E1EF]">
-        <div className="z-10 w-full md:w-10/12 max-w-sm min-h-[580px] bg-[#FEFFFF] font-mono text-sm flex flex-col items-center shadow-xl rounded-2xl mt-7">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-[#D5E1EF]">
+        <div className="z-10 w-full md:w-10/12 h-auto max-w-xs min-h-fit bg-[#FEFFFF] font-mono text-sm flex flex-col items-center shadow-xl rounded-2xl mt-7 pb-10">
           <Image
             src={QRImage}
             alt="picture of QR"
